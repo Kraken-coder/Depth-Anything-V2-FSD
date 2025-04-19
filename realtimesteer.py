@@ -220,4 +220,4 @@ if __name__ == "__main__":
     # The ROI will cover from 60% to 100% of the frame height.
     detector = RealTimeSteeringDetector(roi_top_frac=0.3, roi_bottom_frac=0.7)
     # Run the real-time processing loop.
-    detector.run_realtime(camera_index='http://100.119.10.212:8080/video', resize_dim=(320, 240), sample_interval=3)
+    detector.run_realtime(camera_index=0, resize_dim=(320, 240), sample_interval=3)
